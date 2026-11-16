@@ -5,7 +5,7 @@
 
 // Pines del circuito
 constexpr uint8_t PIN_BOTON_RESET = 33;
-constexpr uint8_t PIN_LED_ALERTA  = 5;  // Encendido SOLO ante alerta activa
+constexpr uint8_t PIN_LED_ALERTA  = 32;  // Si falla el sensor al iniciar, el LED en GPIO 32 queda encendido fijo como alerta
 constexpr uint8_t PIN_SDA         = 21;
 constexpr uint8_t PIN_SCL         = 22;
 
